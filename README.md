@@ -53,8 +53,30 @@ The API endpoints provided by GitHubCodeFlow are documented below:
 - **Endpoint 9**: `/functions` (POST) - Adds a new function's metadata to the database.
 - **Endpoint 10**: `/functions/{id}` (PUT) - Updates the metadata of a specific function in the database.
 - **Endpoint 11**: `/functions/{id}/functionBody` (PATCH) - Updates the function body of a specific function in the database.
+- **Endpoint 12**: `/parseRepo` (POST) - Parses the repository provided in the request body and adds function metadata to the database.
+
 
 For detailed documentation and examples, refer to the API documentation or interact with the endpoints using an API client.
+
+## Picture Walkthrough
+
+- **HomePage**: Initial state, no GitHub Repo parsed so far
+  ![HomePage](https://github.com/codificador10/GithubCodeFlow/assets/82313146/ab593bd4-4eb3-4a10-aed9-c58b1e6cb77e)
+
+- **Parsing a file with repo link as a parameter**: All Functions Added to Database
+  ![Parsing a file with repo link as a parameter](https://github.com/codificador10/GithubCodeFlow/assets/82313146/fa5b60d1-ef17-461a-8ae7-f6efd4f9c590)
+
+- **Find by Function Name**: Find by Function Name
+  ![Find by Function Name](https://github.com/codificador10/GithubCodeFlow/assets/82313146/005840b8-2aef-43dc-bf57-1aece8ae37f0)
+
+- **Find by Function ID**: Find by Function ID
+  ![Find by Function ID](https://github.com/codificador10/GithubCodeFlow/assets/82313146/36010101-d0b5-49a1-b6ae-44b1224081ab)
+
+- **Update the Function Body**: Update the Function Body
+  ![Update the Function Body](https://github.com/codificador10/GithubCodeFlow/assets/82313146/8013f26f-b82e-4100-a80f-dd4bfcfa30b1)
+
+- **Updated Function Body**: Updated Function Body
+  ![Updated Function Body](https://github.com/codificador10/GithubCodeFlow/assets/82313146/8e9452a9-01d5-4792-acda-bcd701d71719)
 
 ## Contribution Guidelines
 
