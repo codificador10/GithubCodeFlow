@@ -59,7 +59,7 @@ class FileParser:
         return all_function_info
 
 def parseTheRepo(repo_link: str):
-    github_api_key = "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" 
+    github_api_key = "txt_dmHLNMofXLy4C6WtReNZzQcByCaaOi1iRqZr" 
     fileParser = GitHubRepoParser(github_api_key)
     response = fileParser.collect_data(repo_link)
     repo_urls = response.get("py", [])
