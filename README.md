@@ -1,7 +1,3 @@
-Sure, here's the corrected version of the README with the endpoints updated:
-
----
-
 # GitHubCodeFlow
 
 GitHubCodeFlow is a project aimed at facilitating efficient interaction with GitHub repositories, focusing on extracting metadata and managing code-related tasks. It leverages FastAPI for API handling, Firebase for authentication, and various tools for parsing codebases and managing metadata.
@@ -72,7 +68,3 @@ Contributions to GitHubCodeFlow are welcome! If you'd like to contribute, please
 ## License
 
 GitHubCodeFlow is licensed under the [MIT License](https://github.com/codificador10/GithubCodeFlow/blob/main/LICENSE).
-
----
-
-This README provides an overview of the GitHubCodeFlow project, guiding users on getting started, accessing the APIs, contributing to the project, and understanding its license. Adjustments can be made as necessary to reflect any additional information or specific instructions relevant to the project.
