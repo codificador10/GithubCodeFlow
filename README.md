@@ -80,12 +80,10 @@ For detailed documentation and examples, refer to the API documentation or inter
 
 ## Contribution Guidelines
 
-Contributions to GitHubCodeFlow are welcome! If you'd like to contribute, please follow these guidelines:
+Contributions to GitHubCodeFlow are welcome!
 
-- Fork the repository and create a new branch for your feature or fix.
-- Make your changes, ensuring adherence to coding standards and documentation guidelines.
-- Test your changes thoroughly.
-- Submit a pull request, providing a clear description of the changes made and any relevant information.
+**Note:** Currently, the project only supports parsing Python files.
+
 
 ## License
 
