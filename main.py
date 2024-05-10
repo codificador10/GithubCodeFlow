@@ -12,7 +12,7 @@ cred = credentials.Certificate("/Users/ayushraj/auth.json")
 initialize_app(cred)
 
 # Attach the middleware to the application
-# app.middleware("http")(firebase_auth_middleware)
+app.middleware("http")(firebase_auth_middleware)
 
 # Define root route
 @app.get("/")
